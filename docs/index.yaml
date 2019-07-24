@@ -90,6 +90,15 @@ entries:
   welearn-back:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2019-07-24T17:16:37.693286703+02:00"
+    description: Welearn back chart
+    digest: 21c31525c7e07073c70217d7a37d79f37498fc2b269bbf6b8d973a5823894143
+    name: welearn-back
+    urls:
+    - https://github.com/darkslategrey/wesave-charts/releases/download/welearn-back-0.1.1/welearn-back-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2019-07-24T16:20:09.873242377+02:00"
     description: Welearn back chart
     digest: c966a4de5f5c82ada115feaa622d587f4776422ba8244d0d341c36945532a729
