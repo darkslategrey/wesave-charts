@@ -13,5 +13,5 @@ end
 
 desc 'Create index.yaml file'
 task :index do
-  sh 'cr index -c https://darkslategrey.github.io/wesave-charts/ -i ./index.yaml -p ../.deploy -o darkslategrey -r wesave-charts'
+  sh 'cr index -c https://darkslategrey.github.io/wesave-charts/ -i ./docs/index.yaml -p ../.deploy -o darkslategrey -r wesave-charts'
 end
