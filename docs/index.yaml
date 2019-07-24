@@ -1,0 +1,90 @@
+apiVersion: v1
+entries:
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 6.7.0
+    created: "2019-07-24T12:13:09.340966418+02:00"
+    description: Flexible and powerful open source, distributed real-time search and
+      analytics engine.
+    digest: df603abcf0ea5ccaf048dd27d91e5d4e2d3a483c61deae98a17d2dee94c75d48
+    home: https://www.elastic.co/products/elasticsearch
+    icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
+    maintainers:
+    - email: christian@jetstack.io
+      name: simonswine
+    - email: michael.haselton@gmail.com
+      name: icereval
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: goonohc@gmail.com
+      name: KongZ
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    name: elasticsearch
+    sources:
+    - https://www.elastic.co/products/elasticsearch
+    - https://github.com/jetstack/elasticsearch-pet
+    - https://github.com/giantswarm/kubernetes-elastic-stack
+    - https://github.com/GoogleCloudPlatform/elasticsearch-docker
+    - https://github.com/clockworksoul/helm-elasticsearch
+    - https://github.com/pires/kubernetes-elasticsearch-cluster
+    urls:
+    - https://github.com/darkslategrey/wesave-charts/releases/download/elasticsearch-1.30.0/elasticsearch-1.30.0.tgz
+    version: 1.30.0
+  postgresql:
+  - apiVersion: v1
+    appVersion: 11.4.0
+    created: "2019-07-24T12:13:09.644192818+02:00"
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 59e81afd4f93b11fa23ed035b1b1dfe53bb78b332a72bde4c3a74081e045ffcb
+    engine: gotpl
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - https://github.com/darkslategrey/wesave-charts/releases/download/postgresql-6.1.0/postgresql-6.1.0.tgz
+    version: 6.1.0
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.5
+    created: "2019-07-24T12:13:09.914597714+02:00"
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: fc79574b44ad3524602e58e367dae341c52570d194a04a7affb6173b23f1a2d7
+    engine: gotpl
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - https://github.com/darkslategrey/wesave-charts/releases/download/redis-8.1.5/redis-8.1.5.tgz
+    version: 8.1.5
+generated: "2019-07-24T12:13:09.023122872+02:00"
