@@ -87,4 +87,14 @@ entries:
     urls:
     - https://github.com/darkslategrey/wesave-charts/releases/download/redis-8.1.5/redis-8.1.5.tgz
     version: 8.1.5
+  welearn-back:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-07-24T16:20:09.873242377+02:00"
+    description: Welearn back chart
+    digest: c966a4de5f5c82ada115feaa622d587f4776422ba8244d0d341c36945532a729
+    name: welearn-back
+    urls:
+    - https://github.com/darkslategrey/wesave-charts/releases/download/welearn-back-0.1.0/welearn-back-0.1.0.tgz
+    version: 0.1.0
 generated: "2019-07-24T12:13:09.023122872+02:00"
