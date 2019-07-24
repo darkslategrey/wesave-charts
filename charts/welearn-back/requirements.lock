@@ -1,0 +1,12 @@
+dependencies:
+- name: redis
+  repository: https://darkslategrey.github.io/wesave-charts
+  version: 8.1.5
+- name: postgresql
+  repository: https://darkslategrey.github.io/wesave-charts
+  version: 6.1.0
+- name: elasticsearch
+  repository: https://darkslategrey.github.io/wesave-charts
+  version: 1.30.0
+digest: sha256:a0a0e0be1af9447f3f690e418ff628af8b4f781a4c3cea6c5149e9fb5ff5a2c7
+generated: "2019-07-24T14:28:06.008523034+02:00"

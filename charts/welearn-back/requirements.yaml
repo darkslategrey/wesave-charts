@@ -1,0 +1,10 @@
+dependencies:
+- name: redis 
+  version: 8.1.5
+  repository: https://darkslategrey.github.io/wesave-charts
+- name: postgresql 
+  version: 6.1.0
+  repository: https://darkslategrey.github.io/wesave-charts
+- name: elasticsearch 
+  version: 1.30.0
+  repository: https://darkslategrey.github.io/wesave-charts
