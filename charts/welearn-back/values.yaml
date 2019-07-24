@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   registry: localhost:5000
-  repository: welearn-back_web:latest
+  repository: welearn-back_web
   tag: latest
   pullPolicy: IfNotPresent
 
