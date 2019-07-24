@@ -10,14 +10,9 @@ namespace :package do
   end
 
   desc 'Package welearn-back'
-  task welean: ['package:cleanup'] do
+  task welearn: ['package:cleanup'] do
     sh 'helm package charts/welearn-back --destination .deploy'
   end
-end
-
-desc 'Build packages charts/* charts into .deploy'
-task :packages do
-  sh 'helm package charts/{elasticsearch,postgresql,redis,welearn-back} --destination .deploy'
 end
 
 desc 'Release charts'
