@@ -16,6 +16,18 @@ spec:
         app.kubernetes.io/name: {{ include "welearn-back.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
     spec:
+      env:
+      - name: DB_USERNAME
+        value: {{ .Values.postgresql.postgresqlUsername }}
+      # - name: DB_HOST
+      #   value: {{ .Values.postgresql.postgresql }}
+      - name: DB_PASSWORD
+        value: {{ .Values.postgresql.postgresqlPassword }}
+      - name: LANG
+        value: C.UTF-8
+      - name: DOCKER
+        value: true
+
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
